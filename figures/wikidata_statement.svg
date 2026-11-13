@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="640" viewBox="0 0 1240 640" role="img" aria-labelledby="title desc">
+  <title id="title">A Wikidata statement: subject Q ID, property P ID and value</title>
+  <desc id="desc">Wikipedia (Q52) is linked to Jimmy Wales (Q181) by the property founder (P112). The figure explains that a Q ID identifies an item, a P ID identifies a property, and the value is the object of the statement.</desc>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,4 L0,8 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <rect width="1240" height="640" fill="#ffffff"/>
+
+  <text x="64" y="58" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="31" font-weight="700" fill="#0f172a">Wikidata statements, Q IDs, P IDs and values</text>
+  <text x="64" y="88" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#64748b">A statement links a subject item to a value through a property.</text>
+
+  <!-- statement container -->
+  <rect x="64" y="110" width="1112" height="240" rx="18" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="92" y="142" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="#64748b">STATEMENT (CLAIM)</text>
+
+  <!-- subject -->
+  <rect x="104" y="166" width="270" height="124" rx="14" fill="#ffffff" stroke="#c7d2fe" stroke-width="1.5"/>
+  <text x="128" y="196" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#6366f1">SUBJECT · ITEM</text>
+  <text x="128" y="231" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Wikipedia</text>
+  <rect x="128" y="243" width="62" height="28" rx="14" fill="#e0e7ff"/>
+  <text x="159" y="262" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#4338ca">Q52</text>
+  <text x="200" y="262" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#6366f1">Q ID</text>
+
+  <!-- arrow (property sits on top of it) -->
+  <line x1="374" y1="230" x2="866" y2="230" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- property -->
+  <text x="620" y="190" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#b45309">PROPERTY · P ID</text>
+  <rect x="515" y="198" width="210" height="64" rx="16" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="620" y="228" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#92400e">founder</text>
+  <text x="620" y="250" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#b45309">P112</text>
+
+  <!-- value -->
+  <rect x="866" y="166" width="270" height="124" rx="14" fill="#ffffff" stroke="#a7f3d0" stroke-width="1.5"/>
+  <text x="890" y="196" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#059669">VALUE · ITEM</text>
+  <text x="890" y="231" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Jimmy Wales</text>
+  <rect x="890" y="243" width="70" height="28" rx="14" fill="#d1fae5"/>
+  <text x="925" y="262" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#047857">Q181</text>
+  <text x="972" y="262" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#059669">Q ID</text>
+
+  <!-- explanations -->
+  <rect x="64" y="384" width="352" height="174" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="88" y="408" width="64" height="28" rx="14" fill="#e0e7ff"/>
+  <text x="120" y="427" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#4338ca">Q52</text>
+  <text x="88" y="470" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#0f172a">Q ID — item identifier</text>
+  <text font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.8" fill="#475569">
+    <tspan x="88" y="496">A unique identifier for an item: a person,</tspan>
+    <tspan x="88" y="516">place, work or concept. Q52 is Wikipedia</tspan>
+    <tspan x="88" y="536">and Q181 is Jimmy Wales.</tspan>
+  </text>
+
+  <rect x="444" y="384" width="352" height="174" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="468" y="408" width="64" height="28" rx="14" fill="#fef3c7"/>
+  <text x="500" y="427" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#b45309">P112</text>
+  <text x="468" y="470" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#0f172a">P ID — property identifier</text>
+  <text font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.8" fill="#475569">
+    <tspan x="468" y="496">A property shared by every statement that</tspan>
+    <tspan x="468" y="516">uses it. P112 means founder, so the same</tspan>
+    <tspan x="468" y="536">P ID appears across many items.</tspan>
+  </text>
+
+  <rect x="824" y="384" width="352" height="174" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="848" y="408" width="70" height="28" rx="14" fill="#d1fae5"/>
+  <text x="883" y="427" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#047857">Q181</text>
+  <text x="848" y="470" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#0f172a">Value — the object</text>
+  <text font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.8" fill="#475569">
+    <tspan x="848" y="496">The value completes the statement — here</tspan>
+    <tspan x="848" y="516">another item, Jimmy Wales (Q181). Values</tspan>
+    <tspan x="848" y="536">can also be dates, numbers, URLs or text.</tspan>
+  </text>
+
+  <text x="64" y="596" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#94a3b8">Statements can also carry qualifiers and references (not shown).</text>
+</svg>

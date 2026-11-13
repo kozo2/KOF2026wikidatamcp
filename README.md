@@ -2,6 +2,8 @@
 
 Interactive Wikidata knowledge-graph demo.
 
+[![A Wikidata statement: subject item (Q52), property (P112) and value (Q181)](figures/wikidata_statement.png)](figures/wikidata_statement.svg)
+
 ## Streamlit app
 
 `app.py` renders the outgoing direct claims of a Wikidata entity (default
